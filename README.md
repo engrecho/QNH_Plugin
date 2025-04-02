@@ -1,1 +1,0 @@
-# QNH_Plugin

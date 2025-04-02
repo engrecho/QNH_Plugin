@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "老曹神手之补货单预览供应商金额|牵牛花插件",
+  "version": "1.0.0",
+  "homepage_url":"https://km.sankuai.com/collabpage/2707899029",
+  "description": "仅针对【补货单预览】页面生效，可以展示供应商的订单总金额、SKU种数及补货数量",
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "author": "wangjunlong03@meituan.com",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://qnh.meituan.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://qnh.meituan.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
