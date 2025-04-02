@@ -2,11 +2,12 @@
 // @name         牵牛花：补货预览单展示供应商补货数量
 // @namespace    http://tampermonkey.net/
 // @version      2025-04-02
-// @description  try to take over the world!
+// @description  仅针对【补货单预览】页面生效，可以展示供应商的订单总金额、SKU种数及补货数量
 // @author       wangjunlong03@meituan.com
 // @match        https://qnh.meituan.com/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=meituan.com
 // @grant        none
+// @homepage_url https://km.sankuai.com/collabpage/2707899029
 // ==/UserScript==
 
 (function() {
